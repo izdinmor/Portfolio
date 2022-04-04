@@ -1,0 +1,177 @@
+html,body{
+    height:100%;
+    width: 100%;
+    margin:0px 0px 20px 0px;
+    
+}
+#pageContent{
+    height:fit-content;
+    width:100%;
+    background-color:lightblue;
+}
+
+#websiteNavigation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly; 
+    height:fit-content;
+    padding: 10px 0px 10px 0px;
+    background-color:lightskyblue;
+}
+#websiteNavigation > a{
+    font-size: 20px;
+    background-color: white;
+    border:2px black solid;
+    border-radius:50px;
+    padding:10px 10px 10px 10px;
+}
+#websiteNavigation > a:hover{
+    background-color: black;
+    border:2px white solid;
+    color:white;
+}
+.project{
+    height: fit-content;
+    justify-content: center;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5%;  
+     
+    padding:1% 10px 1% 10px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius:20px;
+    
+}
+.titleProject{
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;   
+    
+}
+.descriptionProject{
+    padding: 10px 0px 10px 0px;
+    font-size: 25px;
+    justify-content: center;
+    width:fit-content;
+    text-align: center;
+    
+}
+
+.scripting{
+    background-color: lightseagreen;
+}
+.visualScripting{
+    background-color: lightcyan;
+}
+.gameDesign{
+    background-color:lightcoral;
+}
+.levelDesign{
+    background-color: lightgreen;
+}
+
+
+
+.imgContainer{
+    
+    max-width: 576px;
+    margin: 50px auto;
+}
+.skillsUsed{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.skillsUsed > h2{
+    border:2px black solid;
+    border-radius:20px;
+    padding:5px 5px 5px 5px;
+}
+.linkContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.linkContainer >a{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+
+.diapoProject{
+    width: 100%;
+    height: 0px;
+    padding-top: 56.25%;
+    box-shadow: 0px 0px 10px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+#testYourEgo{
+    animation: egoDiapo 16s ease-in-out infinite both;
+}
+#pitStop {
+    animation: pitStopDiapo 14s ease-in-out infinite both;
+}
+#tenPager{
+    animation: egoDiapo 2s ease-in-out infinite both;
+}
+#iceScape{
+    animation: iceScapeDiapo 12s ease-in-out infinite both;
+}
+#styx{
+    animation: styxDiapo 10s ease-in-out infinite both;
+}
+#link{
+    animation: linkDiapo 12s ease-in-out infinite both;
+}
+@keyframes egoDiapo{
+    0%{background-image: url("./Images/TestYourEgo/TestYourEgo1.png");}
+    14.25%{background-image: url("./Images/TestYourEgo/TestYourEgo2.png");}
+    28.5%{background-image: url("./Images/TestYourEgo/TestYourEgo3.png");}
+    42.75%{background-image: url("./Images/TestYourEgo/TestYourEgo4.png");}
+    57%{background-image: url("./Images/TestYourEgo/TestYourEgo5.png");}
+    71.25%{background-image: url("./Images/TestYourEgo/TestYourEgo6.png");}
+    85.5%{background-image: url("./Images/TestYourEgo/TestYourEgo7.png");}
+    100%{background-image: url("./Images/TestYourEgo/TestYourEgo8.png");}
+}
+@keyframes pitStopDiapo{
+    0%{background-image: url("./Images/PitStop/PitStop1.png");}
+    16.67%{background-image: url("./Images/PitStop/PitStop2.png");}
+    33.33%{background-image: url("./Images/PitStop/PitStop3.png");}
+    50%{background-image: url("./Images/PitStop/PitStop4.png");}
+    66.67%{background-image: url("./Images/PitStop/PitStop5.png");}
+    83.33%{background-image: url("./Images/PitStop/PitStop6.png");}
+    100%{background-image: url("./Images/PitStop/PitStop7.png");}
+    
+}
+@keyframes styxDiapo{
+    0%{background-image: url("./Images/Styx/Styx1.png");}
+    25%{background-image: url("./Images/Styx/Styx2.png");}
+    50%{background-image: url("./Images/Styx/Styx3.png");}
+    75%{background-image: url("./Images/Styx/Styx4.png");}
+    100%{background-image: url("./Images/Styx/Styx5.png");}    
+}
+@keyframes iceScapeDiapo{
+    0%{background-image: url("./Images/IceScape/IceScape1.png");}
+    20%{background-image: url("./Images/IceScape/IceScape2.png");}
+    40%{background-image: url("./Images/IceScape/IceScape3.png");}
+    60%{background-image: url("./Images/IceScape/IceScape4.png");}
+    80%{background-image: url("./Images/IceScape/IceScape5.png");}   
+    100%{background-image: url("./Images/IceScape/IceScape6.png");}  
+}
+@keyframes linkDiapo{
+    0%{background-image: url("./Images/Link/Link1.png");}
+    20%{background-image: url("./Images/Link/Link2.png");}
+    40%{background-image: url("./Images/Link/Link3.png");}
+    60%{background-image: url("./Images/Link/Link4.png");}
+    80%{background-image: url("./Images/Link/Link5.png");}   
+    100%{background-image: url("./Images/Link/Link6.png");}  
+}

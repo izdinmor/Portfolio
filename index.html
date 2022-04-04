@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Guillaume Tempels'Portfolio</title>
+</head>
+<body>
+    
+        <h1 id="instructions">Complete the code</h1>
+        <div id="controls">
+            <p>Press "Space" to jump/Press &#x2193; to crouch</p>            
+        </div>
+        <div id="gameContainer">
+           
+            <div id="canvasContainer">
+                <canvas id="canvas"></canvas>
+                
+            </div>
+            <div id="incompleteCode">
+                <p>............</p>
+                <p>..........</p>
+                <p>player........</p>
+                <p>if(squaresColliding(player,codePiece)){player.collectCodePiece();player................}</p>
+                <p>if (player.     allPiecesCollected){setTimeout(..........,2000);}</p>
+                
+            </div>
+        </div>
+        <section id="overlay">
+            <div id="retryCard">
+                <button onclick="restartGame(this)">Try Again ?</button>
+            </div>
+            <div id="codeCompleteCard">
+                <h1>Code Completed !</h1>
+                <h2>Accessing Website...</h2>
+            </div>
+        </section>
+        
+        <button id="skipbutton">Acces Site</button>    
+        <script src="runner.js"></script>
+    
+</body>
+
+</html>

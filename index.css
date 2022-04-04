@@ -1,0 +1,138 @@
+
+html,body{
+    height:100%;
+    width: 100%;
+    margin:0px 0px 0px 0px;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+
+#gameContainer{
+    margin-top:10px;
+    display: flex;
+    flex-direction: row;    
+    margin-left:10px;
+    margin-right: 10px;
+    width:100%;
+    height:66vh;
+    box-sizing: border-box;
+    
+   
+    
+}
+#overlay{
+    position: absolute;
+    top:0;
+    left:-225px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+#overlay #retryCard{
+    
+    width: 50%;
+    border-radius: 5px;
+    animation: cardIn 1s forwards;
+    display: none;
+}
+#overlay #codeCompleteCard{
+    
+    width: 50%;
+    border-radius: 5px;
+    animation: cardIn 1s forwards;
+    display: none;
+}
+
+#overlay #retryCard > button{
+    outline: none;
+    color: white;
+    border: none;
+    background-color: #1a8cff;
+    padding: 10px;
+    width:90%;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#overlay #codeCompleteCard > *{
+    color:green;    
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;    
+    padding-left:5px;
+    padding-right:5px;
+    font-weight: bold;
+    
+}
+#overlay #codeCompleteCard > h1{
+    font-size:50px;
+}
+#overlay #codeCompleteCard > h2{
+    font-size:25px;
+}
+#canvas{
+    border:5px solid black;
+    box-sizing: border-box;  
+    border-radius: 20px;  
+    margin-left: auto;
+    margin-right:auto;
+    background-color: lightgray;
+    
+}
+#skipbutton{ 
+    background-color: lightgrey;
+    width:200px;
+    height: 50px;;    
+    border-radius: 20px;
+    border:black solid 3px;
+    font-size: 25px;
+    margin-left:10px;
+   
+    
+}
+#controls{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgrey;
+    border:black solid 2px;
+    border-radius: 15px;
+    padding:10px;
+    width: fit-content;
+   
+}
+#incompleteCode{
+    border-radius: 15px;
+    height: fit-content;
+    width:25%;
+    background-color: lightgray;
+    color:red;
+    border:black solid 2px;
+    padding:10px;
+    margin-left:50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#instructions{
+    margin-left:auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+
+@keyframes cardIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
