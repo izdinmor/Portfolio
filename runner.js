@@ -54,7 +54,7 @@ function restartGame(button) {
 }
 function accessSite(){
     
-    window.location.href="./aboutme.html";
+    window.location.href="https://github.com/izdinmor/Portfolio/blob/main/aboutme.html";
     
 }
 
