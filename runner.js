@@ -54,7 +54,7 @@ function restartGame(button) {
 }
 function accessSite(){
     
-    window.location.href="https://github.com/izdinmor/Portfolio/blob/main/aboutme.html";
+    window.location.href="./aboutme.html";
     
 }
 
@@ -265,15 +265,15 @@ function generateCodePiece(nbPieces){
         codePiece=new CodePiece(80,40,codePieceSpeed);
                 
         switch(nbPieces){
-            case 0:imgCodePiece.src="./CodePieces/startGame.png";
+            case 0:imgCodePiece.src="./startGame.png";
                 break;
-            case 1:imgCodePiece.src="./CodePieces/animate.png";
+            case 1:imgCodePiece.src="./animate.png";
                 break;
-            case 2:imgCodePiece.src="./CodePieces/draw.png";
+            case 2:imgCodePiece.src="./draw.png";
                 break;
-            case 3:imgCodePiece.src="./CodePieces/completeCode.png";
+            case 3:imgCodePiece.src="./completeCode.png";
                 break;
-            case 4:imgCodePiece.src="./CodePieces/accessSite.png";
+            case 4:imgCodePiece.src="./accessSite.png";
                 break;
         }
     }
