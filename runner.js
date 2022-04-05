@@ -265,15 +265,15 @@ function generateCodePiece(nbPieces){
         codePiece=new CodePiece(80,40,codePieceSpeed);
                 
         switch(nbPieces){
-            case 0:imgCodePiece.src="./startGame.png";
+            case 0:imgCodePiece.src="https://raw.githubusercontent.com/izdinmor/Portfolio/main/startGame.png";
                 break;
-            case 1:imgCodePiece.src="./animate.png";
+            case 1:imgCodePiece.src="https://raw.githubusercontent.com/izdinmor/Portfolio/main/animate.png";
                 break;
-            case 2:imgCodePiece.src="./draw.png";
+            case 2:imgCodePiece.src="https://raw.githubusercontent.com/izdinmor/Portfolio/main/draw.png";
                 break;
-            case 3:imgCodePiece.src="./completeCode.png";
+            case 3:imgCodePiece.src="https://raw.githubusercontent.com/izdinmor/Portfolio/main/completeCode.png";
                 break;
-            case 4:imgCodePiece.src="./accessSite.png";
+            case 4:imgCodePiece.src="https://raw.githubusercontent.com/izdinmor/Portfolio/main/accessSite.png";
                 break;
         }
     }
